@@ -1,0 +1,43 @@
+
+
+
+.cart-item{
+  border: 1px solid black;
+  width: 15rem;
+}
+
+.img{
+  /* height: 5rem; */
+  width: 100%;
+}
+
+.desc-grp{
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price{
+  text-align: center;
+}
+.item-name{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn-grp{
+   text-align: center;
+}
+
+.old , .new{
+  font-size: 0.7rem;
+  padding: 0px  5px;
+}
+
+.old{
+  text-decoration: line-through;
+}
+.new{
+  background-color: #24F345;
+}
