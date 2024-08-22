@@ -6,9 +6,12 @@ import { ShoppingCartProvider, useShoppingCart } from './Pages/ShoppingCartConte
 
 function App() {
   return (
-    <ShoppingCartProvider>
-        <ShoppingBag />  
+    <ShoppingCartProvider >
+    <div className='shopping-list'>
+    <div className='h1'>Shopping List</div>
+      <ShoppingBag />  
       <Cart />
+    </div>
     </ShoppingCartProvider>
     
   );
@@ -19,8 +22,8 @@ function ShoppingBag(){
 
   return(
    <div className='shopping-bag'>
-     <div>Shopping Bag ({items})</div>
-     <div>Total Price : {total}</div>
+     <div className='bag'><span className='bold'>Shopping Bag</span> <span className='spl'>({items})</span></div>
+     <div className='bag'><span className='bold'>Total Price </span>: <span className='spl'>{total}</span></div>
    </div>
   );
 

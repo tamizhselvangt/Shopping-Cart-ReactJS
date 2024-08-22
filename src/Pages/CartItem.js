@@ -27,7 +27,7 @@ export default function CartItem({imageURL, itemName, oldPrice, newPrice}){
         </div>
 
         <div className='btn-grp'>
-        <button onClick={isInCart} > {isCart ?  "Remove" : "+ Add to Cart"}</button>
+        <button  className='btn' onClick={isInCart} > {isCart ?  "Remove" : "+ Add to Cart"}</button>
         </div>
         </div>
     </div>

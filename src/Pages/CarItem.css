@@ -2,7 +2,7 @@
 
 
 .cart-item{
-  border: 1px solid black;
+  border: 0.01rem solid black;
   width: 15rem;
 }
 
@@ -19,17 +19,25 @@
 }
 
 .price{
-  text-align: center;
+  text-align: start;
 }
 .item-name{
-  font-size: 1rem;
-  text-align: center;
+  font-size: 0.8rem;
+  text-align: start;
+  font-weight: 600;
+  color: rgb(132, 132, 132);
 }
 
 .btn-grp{
-   text-align: center;
+   text-align: end;
 }
-
+.btn{
+  padding: 0.3rem 0.5rem;
+  border: none;
+margin-top: 5px;
+background-color: rgb(243, 242, 242);
+border-radius: 5px;
+}
 .old , .new{
   font-size: 0.7rem;
   padding: 0px  5px;

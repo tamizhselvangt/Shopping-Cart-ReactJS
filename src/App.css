@@ -4,3 +4,30 @@
 .cart{
   display: flex;
 }
+.shopping-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.h1{
+  font-size: 4rem;
+  color: #24F345;
+}
+.shopping-bag{
+  text-align: end;
+}
+
+.bold{
+  font-weight: 600;
+}
+.spl{
+  color: tomato;
+  font-weight: 600;
+}
+/* 
+.bag{
+  border: 1px solid black;
+  max-width: 10rem;
+  margin-bottom: 10px;
+} */
